@@ -1,0 +1,78 @@
+* {
+  position: sticky;
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  /* width: 100%; */
+  scroll-behavior: smooth;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.overall {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  background-color: rgb(20, 20, 20);
+  padding: 10px;
+}
+
+.Navbar {
+  background-color: rgb(20, 20, 20);
+  color: aliceblue;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.nav_logo {
+  font-size: 40px;
+  font-weight: 500;
+  align-self: baseline;
+}
+
+li,
+a {
+  display: inline;
+  align-items: baseline;
+  font-size: large;
+  font-weight: 300;
+  float: left;
+  text-decoration: none;
+  list-style-type: none;
+  color: inherit;
+  padding-left: 10px;
+}
+
+li:hover {
+  color: rgb(127, 238, 255);
+}
+
+.nav_button {
+  align-self: center;
+  margin-top: 1px;
+  text-align: center;
+}
+
+button {
+  background-color: rgb(0, 0, 0);
+  color: rgb(237, 237, 237);
+  border: 2px solid aliceblue;
+
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 20px;
+  font-size: 15px;
+  width: auto;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+button:hover {
+  background-color: aliceblue;
+  color: rgb(20, 20, 20);
+}
